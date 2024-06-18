@@ -3,11 +3,39 @@ body {
   color: #434455;
   background-color: #fff;
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
 }
 a {
   text-decoration: none;
+}
+.header {
+  padding: 24px 0;
+}
+.container-head {
+  display: flex;
+  align-items: center;
+}
+.header-navigation {
+  display: flex;
+}
+.header-fst-list {
+  display: flex;
+  padding-left: 76px;
+  gap: 40px;
+  align-items: center;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -17,6 +45,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding-left: 156px;
 }
 .logo-studio {
   color: #2e2f42;
@@ -36,6 +65,13 @@ a {
 }
 .author {
   font-style: normal;
+  display: flex;
+}
+.header-scnd-list {
+  display: flex;
+  padding-left: 332px;
+  align-items: center;
+  gap: 40px;
 }
 .author-link {
   font-size: 16px;
@@ -52,6 +88,13 @@ a {
 
 .section-title {
   background-color: #2e2f42;
+}
+.container {
+  padding-top: 188px;
+  padding-bottom: 292px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .title {
@@ -70,6 +113,8 @@ a {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  margin-top: 48px;
+  padding: 16px 32px;
 }
 .section-title-button:hover {
   background-color: #404bbf;
