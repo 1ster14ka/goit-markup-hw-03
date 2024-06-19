@@ -30,6 +30,9 @@ a {
   margin: 0 auto;
   padding: 0 15px;
 }
+.header-container {
+  display: flex;
+}
 .header-navigation {
   display: flex;
   align-items: center;
@@ -240,7 +243,7 @@ a {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
-.logo2 {
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
