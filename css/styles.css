@@ -134,7 +134,9 @@ a {
   padding: 0;
   overflow: hidden;
   border: 0;
+  white-space: nowrap;
   clip: rect(0 0 0 0);
+  clip-path: inset(100%);
 }
 .section-middle-card {
   display: flex;
