@@ -129,7 +129,7 @@ a {
 .section-title-button:focus {
   background-color: #404bbf;
 }
-.secction-subtitle {
+.section-subtitle {
   padding: 120px 0;
 }
 .visually-hidden {
@@ -178,9 +178,7 @@ a {
 
 .section-team-container {
   display: flex;
-  justify-content: center;
   gap: 24px;
-  flex-wrap: wrap;
 }
 
 /* .team-list-flex {
@@ -231,6 +229,7 @@ a {
   padding: 32px 16px; */
   border: 1px solid #e7e9fc;
   border-top: none;
+  padding: 32px 16px;
 }
 
 .footer {
