@@ -11,182 +11,266 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    /> -->
   </head>
   <body>
     <header class="header">
-      <nav class="header-navigation">
-        <a href="./index.html" class="logo"
-          >Web<span class="logo-studio">Studio</span></a
-        >
-        <ul>
-          <li>
-            <a href="./index.html" class="header-link">Studio</a>
-          </li>
-          <li><a href="" class="header-link">Portfolio</a></li>
-          <li><a href="" class="header-link">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="author">
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com" class="author-link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="author-link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container-head">
+        <nav class="header-navigation">
+          <a href="./index.html" class="logo"
+            >Web<span class="logo-studio">Studio</span></a
+          >
+          <ul class="header-fst-list">
+            <li>
+              <a href="./index.html" class="header-link">Studio</a>
+            </li>
+            <li><a href="" class="header-link">Portfolio</a></li>
+            <li><a href="" class="header-link">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="author">
+          <ul class="header-scnd-list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="author-link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="author-link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <section class="section-title">
-        <h1 class="title">Effective Solutions for Your Business</h1>
-        <button type="button" class="section-title-button">
-          Order Service
-        </button>
+        <div class="container">
+          <h1 class="title">
+            Effective Solutions <br />
+            for Your Business
+          </h1>
+          <button type="button" class="section-title-button">
+            Order Service
+          </button>
+        </div>
       </section>
       <section>
-        <h2>Hello</h2>
-        <ul>
-          <li>
-            <h3 class="subtitle">Strategy</h3>
-            <p class="subtitle-text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="subtitle">Punctuality</h3>
-            <p class="subtitle-text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="subtitle">Diligence</h3>
-            <p class="subtitle-text">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="subtitle">Technologies</h3>
-            <p class="subtitle-text">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+        <div class="secction-middle">
+          <h2>Hello</h2>
+
+          <ul>
+            <li>
+              <div class="section-middle-flex">
+                <h3 class="subtitle">Strategy</h3>
+                <p class="subtitle-text">
+                  Our goal is to identify the business problem to walk away with
+                  the perfect and creative solution.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="section-middle-flex">
+                <h3 class="subtitle">Punctuality</h3>
+                <p class="subtitle-text">
+                  Bring the key message to the brand's audience for the best
+                  price within the shortest possible time.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="section-middle-flex">
+                <h3 class="subtitle">Diligence</h3>
+                <p class="subtitle-text">
+                  Research and confirm brands that present the strongest digital
+                  growth opportunities and minimize risk.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="section-middle-flex">
+                <h3 class="subtitle">Technologies</h3>
+                <p class="subtitle-text">
+                  Design practice focused on digital experiences. We bring forth
+                  a deep passion for problem-solving.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="section-team">
         <h2 class="team-title">Our Team</h2>
-        <ul>
-          <li class="team-list">
-            <img
-              src="./images/img-3.jpg"
-              alt="Mark Guerrero"
-              width="264"
-              height="260"
-            />
+        <div class="section-team-container">
+          <ul>
+            <li class="team-list">
+              <div class="team-list-flex">
+                <img
+                  src="./images/img-3.jpg"
+                  alt="Mark Guerrero"
+                  width="264"
+                  height="260"
+                />
+                <div class="team-list-titles">
+                  <h3 class="subtitle">Mark Guerrero</h3>
+                  <p class="subtitle-text">Product Designer</p>
+                </div>
+              </div>
+            </li>
+            <li class="team-list">
+              <div class="team-list-flex">
+                <img
+                  src="./images/img-2.jpg"
+                  alt="Tom Ford"
+                  width="264"
+                  height="260"
+                />
+                <div class="team-list-titles">
+                  <h3 class="subtitle">Tom Ford</h3>
+                  <p class="subtitle-text">Frontend Developer</p>
+                </div>
+              </div>
+            </li>
+            <li class="team-list">
+              <div class="team-list-flex">
+                <img
+                  src="./images/img-1.jpg"
+                  alt="Camila Garcia"
+                  width="264"
+                  height="260"
+                />
+                <div class="team-list-titles">
+                  <h3 class="subtitle">Camila Garcia</h3>
+                  <p class="subtitle-text">Marketing</p>
+                </div>
+              </div>
+            </li>
 
-            <h3 class="subtitle">Mark Guerrero</h3>
-            <p class="subtitle-text">Product Designer</p>
-          </li>
-          <li class="team-list">
-            <img
-              src="./images/img-2.jpg"
-              alt="Tom Ford"
-              width="264"
-              height="260"
-            />
-            <h3 class="subtitle">Tom Ford</h3>
-            <p class="subtitle-text">Frontend Developer</p>
-          </li>
-          <li class="team-list">
-            <img
-              src="./images/img-1.jpg"
-              alt="Camila Garcia"
-              width="264"
-              height="260"
-            />
-            <h3 class="subtitle">Camila Garcia</h3>
-            <p class="subtitle-text">Marketing</p>
-          </li>
-
-          <li class="team-list">
-            <img
-              src="./images/img.jpg"
-              alt="Daniel Wilson"
-              width="264"
-              height="260"
-            />
-            <h3 class="subtitle">Daniel Wilson</h3>
-            <p class="subtitle-text">UI Designer</p>
-          </li>
-        </ul>
+            <li class="team-list">
+              <div class="team-list-flex">
+                <img
+                  src="./images/img.jpg"
+                  alt="Daniel Wilson"
+                  width="264"
+                  height="260"
+                />
+                <div class="team-list-titles">
+                  <h3 class="subtitle">Daniel Wilson</h3>
+                  <p class="subtitle-text">UI Designer</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
       <section>
-        <h2 class="team-title">Our Portfolio</h2>
-        <ul>
-          <li>
-            <img src="./images/bank5.jpg" alt="Banking app" width="360" />
-
-            <h3 class="subtitle">Banking App</h3>
-            <p class="subtitle-text">App</p>
-          </li>
-          <li>
-            <img src="./images/bank4.jpg" alt="Cashlesh payment" width="360" />
-
-            <h3 class="subtitle">Cashless Payment</h3>
-            <p class="subtitle-text">Marketing</p>
-          </li>
-          <li>
-            <img src="./images/bank3.jpg" alt="Meditation app" width="360" />
-
-            <h3 class="subtitle">Meditation App</h3>
-            <p class="subtitle-text">App</p>
-          </li>
-          <li>
-            <img src="./images/bank2.jpg" alt="Taxi service" width="360" />
-
-            <h3 class="subtitle">Taxi Service</h3>
-            <p class="subtitle-text">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/bank1.jpg"
-              alt="Screen illustrations"
-              width="360"
-            />
-
-            <h3 class="subtitle">Screen Illustrations</h3>
-            <p class="subtitle-text">Design</p>
-          </li>
-          <li>
-            <img src="./images/bank.jpg" alt="Online courses" width="360" />
-
-            <h3 class="subtitle">Online Courses</h3>
-            <p class="subtitle-text">Marketing</p>
-          </li>
-        </ul>
+        <div class="last-section-container">
+          <h2 class="team-title">Our Portfolio</h2>
+          <div class="section-team-container">
+            <ul>
+              <li>
+                <div class="team-list-flex">
+                  <img src="./images/bank5.jpg" alt="Banking app" width="360" />
+                  <div class="team-list-titles2">
+                    <h3 class="subtitle">Banking App</h3>
+                    <p class="subtitle-text">App</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="team-list-flex">
+                  <img
+                    src="./images/bank4.jpg"
+                    alt="Cashlesh payment"
+                    width="360"
+                  />
+                  <div class="team-list-titles2">
+                    <h3 class="subtitle">Cashless Payment</h3>
+                    <p class="subtitle-text">Marketing</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="team-list-flex">
+                  <img
+                    src="./images/bank3.jpg"
+                    alt="Meditation app"
+                    width="360"
+                  />
+                  <div class="team-list-titles2">
+                    <h3 class="subtitle">Meditation App</h3>
+                    <p class="subtitle-text">App</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="team-list-flex last-three-images">
+                  <img
+                    src="./images/bank2.jpg"
+                    alt="Taxi service"
+                    width="360"
+                  />
+                  <div class="team-list-titles2">
+                    <h3 class="subtitle">Taxi Service</h3>
+                    <p class="subtitle-text">Marketing</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="team-list-flex">
+                  <img
+                    src="./images/bank1.jpg"
+                    alt="Screen illustrations"
+                    width="360"
+                  />
+                  <div class="team-list-titles2">
+                    <h3 class="subtitle">Screen Illustrations</h3>
+                    <p class="subtitle-text">Design</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="team-list-flex">
+                  <img
+                    src="./images/bank.jpg"
+                    alt="Online courses"
+                    width="360"
+                  />
+                  <div class="team-list-titles2">
+                    <h3 class="subtitle">Online Courses</h3>
+                    <p class="subtitle-text">Marketing</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="logo"
-        >Web<span class="logo-studio-footer">Studio</span></a
-      >
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="footer-container">
+        <div class="footer-description">
+          <a href="./index.html" class="logo logo2"
+            >Web<span class="logo-studio-footer">Studio</span></a
+          >
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
