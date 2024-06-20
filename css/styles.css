@@ -70,12 +70,12 @@ a {
 }
 .author {
   font-style: normal;
+  margin-left: 332px;
 }
 .header-scnd-list {
   display: flex;
   align-items: center;
   gap: 40px;
-  margin-left: 332px;
 }
 .author-link {
   font-size: 16px;
